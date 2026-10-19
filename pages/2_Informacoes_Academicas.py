@@ -63,10 +63,15 @@ with col1:
         st.subheader("🌐 Acesso Online")
         st.write("Ambiente de produção hospedado no **Streamlit Community Cloud**.")
         st.write("")
-        # Botão com destaque profissional (type="primary" deixa com a cor de destaque)
+        
+        st.markdown("**Link oficial:**")
+        # Exibe a URL de forma explícita com botão de copiar embutido
+        st.code("https://dashboard-piaui.streamlit.app/", language="text")
+        
+        # Mantém o botão de acesso rápido com destaque
         st.link_button(
             "🚀 Acessar Painel Publicado", 
-            "https://dashboard-piaui.streamlit.app", 
+            "https://dashboard-piaui.streamlit.app/", 
             type="primary", 
             use_container_width=True
         )
