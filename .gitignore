@@ -1,0 +1,8 @@
+.venv/
+data/raw/
+__pycache__/
+*.shp
+*.shx
+*.dbf
+*.prj
+*.zip
